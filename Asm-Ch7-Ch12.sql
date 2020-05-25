@@ -42,7 +42,7 @@ FROM
     JOIN orders o
         ON c.customer_id = o.customer_id )TAB
 WHERE RNO=1
-/* 6 part a */
+/* 6 part a *
 CREATE VIEW customer_addresses AS SELECT cust.customer_id,
          cust.email_address,
          cust.last_name,
